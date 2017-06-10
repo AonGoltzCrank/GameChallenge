@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GameChallenge</string>
+    <string name="startNewGame">Play</string>
+    <string name="quitGame">Quit</string>
+    <string name="boat">Boat</string>
+    <string name="score">Your Score: %1$s</string>
+    <string name="lives">Lives: %1$s</string>
+    <string name="errLoadingImages">Something went wrong while loading images</string>
+    <string name="lost_game">Game Over With: %1$d</string>
+</resources>
