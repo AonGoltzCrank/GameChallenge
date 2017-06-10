@@ -79,6 +79,8 @@ class BroadcastTimerTask extends TimerTask {
             if (!isIndexes)
                 updatedYs[i] = mParatroopers.get(i).getY();
         }
+        if (isIndexes)
+            list.clear();
         Intent updateBroadcast = new Intent(savedStatus == null ? BROADCAST_UPDATE_PARA : (savedStatus.equals(Boolean.FALSE) ? BROADCAST_LOST_PARA : BROADCAST_SAVED_PARA));
         updateBroadcast.putExtra(EXTRA_PARATROOPER_ID, updated);
         if (!isIndexes)
